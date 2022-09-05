@@ -1,0 +1,999 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AeJbb3dgNCxuBH-SmhEHVVRcgGo68PZSNtP3EzBZH15fYOFDa8ukun1xd3jROPzMiZR2difInCv06aAJcgNvdDqLRjQBhaChtZr-rCgdqsH3I-Jkxr70WeELBwJdaZ1WcdC4ba11ALlyFQS9LxwDd9p3mCvkmOEclfeXdE5MB9FWjUos39l-4ZR6kmu8FmKzK-LgC575XaRYMSZsqOqUWt3difhJMX_3E55bQXPkQggApygnIu2vyBzJBXOj980RbdIIbIcJP3l0EJA8mfSIEqaHC4OmDf9piGYTX3tIigYXzZMJyxzTQvbEDvSTxycC4wvWwXo5Yaw7uPZTI6XnLUEv2nUMPKJRwbgpSO6598wX9eUFsf9tordTT6wWwp-dO52xkFOWSX60gUlUYKq-R5WrfnD4cFYhaCKQhX7HO8gtYrrBnOyU7TlsVg1z9Uiz",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0636099,
+               "lng" : 19.9378936
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.06500553029149,
+                  "lng" : 19.9390865302915
+               },
+               "southwest" : {
+                  "lat" : 50.06230756970849,
+                  "lng" : 19.93638856970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Grand Hotel Kraków",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 900,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110249338996994064190\"\u003eGrand Hotel Kraków\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3ctmnrbUvZxmIzrHJ8MojrvNq62ldvhn0K-kft_KbY9frUE1MWYAulYWkbjqS5T5PlURLz3OKe9kMFzoC61pbcHAGeZuwcyfQuZZVuEBJr642ps0LRbu33LvR-r8vAUlE7TE01d_-LqUi41YH1Qvs1IhxGfG2ir6t8mN3og_BoPYSox",
+               "width" : 1350
+            }
+         ],
+         "place_id" : "ChIJkVTqNw5bFkcR2yI_1BRtaSM",
+         "plus_code" : {
+            "compound_code" : "3W7Q+C5 Kraków, Polska",
+            "global_code" : "9F2X3W7Q+C5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJkVTqNw5bFkcR2yI_1BRtaSM",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 404,
+         "vicinity" : "Sławkowska 5/7, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.065624,
+               "lng" : 19.945442
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0669768802915,
+                  "lng" : 19.9466104302915
+               },
+               "southwest" : {
+                  "lat" : 50.0642789197085,
+                  "lng" : 19.9439124697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Vienna House Andel's Cracow",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 925,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609\"\u003eHotel Vienna House Andel&#39;s Cracow\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3d7RdzoSSAS76gZ1svHGlOLnIHIjDHO8tbyV8zgBCJRI-cneQSVle_DUxDRh7l9WB1-j0ktT1j77zPFAwnAdS-wIbNAJdZ8a7K-ZKxTwZ8P97cbiUxZrD3tKK1Aybad1Hwis1avUPGQO-O1Mw3fbfGNVVNxGYITheVnI5pn7U_notAM",
+               "width" : 1409
+            }
+         ],
+         "place_id" : "ChIJ8Tb4__8PFkcRwHm1b4IG3Zc",
+         "plus_code" : {
+            "compound_code" : "3W8W+65 Kraków, Polska",
+            "global_code" : "9F2X3W8W+65"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ8Tb4__8PFkcRwHm1b4IG3Zc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "parking",
+            "spa",
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1960,
+         "vicinity" : "Pawia 3, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0582994,
+               "lng" : 19.9331447
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0596746802915,
+                  "lng" : 19.9346250802915
+               },
+               "southwest" : {
+                  "lat" : 50.0569767197085,
+                  "lng" : 19.93192711970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Radisson Blu Hotel Krakow",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111146841510348868790\"\u003eВера Черная\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3c8-HeihzPdh0Y_Fu7fIKhTZMq9-Orw2wdWPzKEEeLCNg3NiUD7zh10SuzhR1FxWV9S39H49eBIWxnrcnpPKa4Fib-d9U3ibAV6F8s1hM6aS2ow5VlPO1VSumBXVtWQrUDLbp-TJnSW1F6FN6vlTbn0PyFPpeVvdqq2LecvuqKjfUqx",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJpXNtPg1bFkcR770s5OVqBuY",
+         "plus_code" : {
+            "compound_code" : "3W5M+87 Kraków, Polska",
+            "global_code" : "9F2X3W5M+87"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJpXNtPg1bFkcR770s5OVqBuY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "gym",
+            "bar",
+            "lodging",
+            "health",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2034,
+         "vicinity" : "Floriana Straszewskiego 17, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.06257919999999,
+               "lng" : 19.9383237
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.06394738029149,
+                  "lng" : 19.9396092302915
+               },
+               "southwest" : {
+                  "lat" : 50.0612494197085,
+                  "lng" : 19.9369112697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Pałac Bonerowski",
+         "photos" : [
+            {
+               "height" : 683,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106044710179429278758\"\u003ePałac Bonerowski\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3dnAXf_IRDrXAq4JMGbLHsynE4CR_2U-s8zBU-qiKCAGHq1Fnc_rD-qs6hFnqksGLhesVu0Ozc_uSqDAHuvgtJ9y6y5htOsmrBkGVEoO5XWrJN9jOuukjVH1ugi6owu9CgUpMIz_0_CtlL7-HatBvw7-L5tM43K5dSLF7IMr_sdSkPT",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJ-eDYHg5bFkcRyxdHh9-1-Q8",
+         "plus_code" : {
+            "compound_code" : "3W7Q+28 Kraków, Polska",
+            "global_code" : "9F2X3W7Q+28"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ-eDYHg5bFkcRyxdHh9-1-Q8",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 186,
+         "vicinity" : "Świętego Jana 1, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0530001,
+               "lng" : 19.9493758
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0543188302915,
+                  "lng" : 19.9506558302915
+               },
+               "southwest" : {
+                  "lat" : 50.0516208697085,
+                  "lng" : 19.9479578697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Kazimierz II",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 402,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105080038805475011403\"\u003eHotel Kazimierz II\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3fOiQs6XEy6wEWmiT_l37DLRFchL0jQVSFIo9bAoeYMhgzAejco7TJtsiOgqfUoDLXruAFCQP_qHUcjqvxXAs7qiV6-RoqjkHR-8aQ3Np9vD62jyCDqbo505Pg_cxLaag9xt3_bUgpl3CsHcbMyknqv5zwpPomaRlbLNfg_mLbXHgo3",
+               "width" : 600
+            }
+         ],
+         "place_id" : "ChIJA-IAFkBbFkcR1pCQo2oZtGg",
+         "plus_code" : {
+            "compound_code" : "3W3X+6Q Kraków, Polska",
+            "global_code" : "9F2X3W3X+6Q"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJA-IAFkBbFkcR1pCQo2oZtGg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 94,
+         "vicinity" : "Starowiślna 60, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.064751,
+               "lng" : 19.940875
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.06602833029149,
+                  "lng" : 19.94330965
+               },
+               "southwest" : {
+                  "lat" : 50.0633303697085,
+                  "lng" : 19.94006345
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Polski Pod Białym Orłem",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1366,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105822422100678333519\"\u003eHotel Polski Pod Białym Orłem\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3d7db1fD20CVqh98qZyI2Usgs4zhOED1Tcio5nkk6HZhJpoGiZX3T5t6X3qL6LDOcUgYVv_se2QuakC5gs_7bEMev4RT-jBnPyrR8pyVVYghMe1Bxr_Qm3W_3WTeZ3RLhvsRLbzPZExyPzaoQ9BZtYctO2-I8tmDV8JU1Q_up_cCFU6",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJV6jZIBBbFkcREvHLsW1382g",
+         "plus_code" : {
+            "compound_code" : "3W7R+W9 Kraków, Polska",
+            "global_code" : "9F2X3W7R+W9"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJV6jZIBBbFkcREvHLsW1382g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 501,
+         "vicinity" : "Pijarska 17, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0414445,
+               "lng" : 19.9369687
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0428064802915,
+                  "lng" : 19.9383016302915
+               },
+               "southwest" : {
+                  "lat" : 50.0401085197085,
+                  "lng" : 19.9356036697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Wilga - Hotel Kraków Ludwinów",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3742,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110232422510822858267\"\u003eWilga - Hotel Kraków Kazimierz\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3cRtlGSXegKNh4PH-v5baA63L3BcwaXCgl-9p-4M4eQWKUCKU2R2xPmFCogFCdIpIK-5IFNoJnxe4CjSxw8VBqVcnUz2R8biN9aUMkueeqovXlfRn1bvajNU6Di1JAky5QKxhNm2_7sOoj7C_KV7emU8p73XG_Rf9AkS_DEjS8BmLi4",
+               "width" : 9296
+            }
+         ],
+         "place_id" : "ChIJ41r4PmdbFkcR1g3uErae7Lk",
+         "plus_code" : {
+            "compound_code" : "2WRP+HQ Kraków, Polska",
+            "global_code" : "9F2X2WRP+HQ"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ41r4PmdbFkcR1g3uErae7Lk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "lodging",
+            "health",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 197,
+         "vicinity" : "Przedwiośnie 16, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0640837,
+               "lng" : 19.9288566
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0654415302915,
+                  "lng" : 19.9303176802915
+               },
+               "southwest" : {
+                  "lat" : 50.0627435697085,
+                  "lng" : 19.9276197197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Logos Kraków Centrum",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110925259578506389096\"\u003eHotel Logos Kraków Centrum\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3cOfYJP8BpO4hk7PLHBRmVvpgLU6IR2K9iwLhv_R9gVn2wHAiUo3I8uhTyKv2taSvFfgr-imVP8kfEpHjLOI4KbLzKcNc_GP2oRJNJiDMngpn1MxtgoSW1brOamjsDnSPpFwl3FuGcp-YbKKiBIABoS8OQL2FMJ4SIacfMaUGxAcMc3",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJBUsUbglbFkcR6Ir5Shan4nE",
+         "plus_code" : {
+            "compound_code" : "3W7H+JG Kraków, Polska",
+            "global_code" : "9F2X3W7H+JG"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJBUsUbglbFkcR6Ir5Shan4nE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 409,
+         "vicinity" : "Józefa Szujskiego 5, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.05313289999999,
+               "lng" : 19.948197
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.05446498029149,
+                  "lng" : 19.9494703302915
+               },
+               "southwest" : {
+                  "lat" : 50.05176701970849,
+                  "lng" : 19.9467723697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Klezmer-Hois",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113222052336961537997\"\u003eMateusz Koreciński\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3cn4GGHWq9x_BsrWZnpUc3nD2-LxA3Qcc1YRxWyppVFPsFTWTp90N9mCP0m2pBBj22-tkQgpcFiwdVMaadobP4LIOLwLawqADcFJLmMKUqdf69gh_MC8Gzu0hXBtsKVgQ2NGYsb8K0NejmUA4iU7xZNLEROp_Zu6K8M8Z2jj3CoSd9P",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJf4DDH0BbFkcRi2T0cp6pTLc",
+         "plus_code" : {
+            "compound_code" : "3W3X+77 Kraków, Polska",
+            "global_code" : "9F2X3W3X+77"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJf4DDH0BbFkcRi2T0cp6pTLc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 800,
+         "vicinity" : "Szeroka 6, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0686407,
+               "lng" : 19.9449332
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0699328802915,
+                  "lng" : 19.9462600302915
+               },
+               "southwest" : {
+                  "lat" : 50.0672349197085,
+                  "lng" : 19.94356206970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "PURO Hotel Kraków Stare Miasto",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107727230857994881081\"\u003eArkadiusz Wątor\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3fn8xvR6fxE-AlrFwj5xEHgyd7gbPeav_KmRoyrekga09XTZ20LpmmHy_D1NS7c3xsoTfKlM9pVHMjgrrIkvYZPRIVLNv6AyWmmL3HIzvA24sbhIrFXXgIbwfQqsHraCilEcGX3P107Yn4DakDyfRqzEEmaNPlOXyM1YY43upGDiibr",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJQ_udKBtbFkcRF9DSO-quGnw",
+         "plus_code" : {
+            "compound_code" : "3W9V+FX Kraków, Polska",
+            "global_code" : "9F2X3W9V+FX"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJQ_udKBtbFkcRF9DSO-quGnw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1510,
+         "vicinity" : "Ogrodowa 10, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0608897,
+               "lng" : 19.942409
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0622187802915,
+                  "lng" : 19.9438086802915
+               },
+               "southwest" : {
+                  "lat" : 50.05952081970851,
+                  "lng" : 19.9411107197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Gródek",
+         "photos" : [
+            {
+               "height" : 3634,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104368405515089266551\"\u003eHotel Gródek\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3eL--KoUcA-PsCBzR3DiW3sdhHLoJwPj-8mA_PvJBSQKPEGBdqk-mPnvNmDLMsF8TEVC0NCH2ts_AQmN2vBBjk_gc1d9hILXuNtuZ8xPDwzT5n1YO8I_Ai30c6FIMxYVA38ODYG7Igh5HMYu-dT9h8UBeqkkWU8j6MSVpTWutA_M_E2",
+               "width" : 5357
+            }
+         ],
+         "place_id" : "ChIJ4co5fRFbFkcRZkqXv0afpmQ",
+         "plus_code" : {
+            "compound_code" : "3W6R+9X Kraków, Polska",
+            "global_code" : "9F2X3W6R+9X"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ4co5fRFbFkcRZkqXv0afpmQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 220,
+         "vicinity" : "Na Gródku 4, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.047459,
+               "lng" : 19.9297859
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0488042302915,
+                  "lng" : 19.9310720302915
+               },
+               "southwest" : {
+                  "lat" : 50.0461062697085,
+                  "lng" : 19.9283740697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Park Inn by Radisson Krakow",
+         "photos" : [
+            {
+               "height" : 2877,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109379931110291793205\"\u003ePark Inn by Radisson Krakow\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3d6iKyoEostXm8gEFQCGyvF-aYerAUlIfXKkmlrYIaQsBgb9ARW42VvNH5uvBT8-sH7JmILJSAvkn_EbEDjN5LO4N1GyjHYwXAhbY_JhcMPsKJPa3YZjTPo_w_8T_rhqnNciDoV4FIENPmm2rB7chMuOaYJte85VSGiqOrHpFPWcjV_",
+               "width" : 3839
+            }
+         ],
+         "place_id" : "ChIJb7MQjW9bFkcRJwL6Z5XtRGc",
+         "plus_code" : {
+            "compound_code" : "2WWH+XW Kraków, Polska",
+            "global_code" : "9F2X2WWH+XW"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJb7MQjW9bFkcRJwL6Z5XtRGc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "gym",
+            "bar",
+            "lodging",
+            "health",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1511,
+         "vicinity" : "Monte Cassino 2, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0543337,
+               "lng" : 19.9431797
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0556581302915,
+                  "lng" : 19.94460848029151
+               },
+               "southwest" : {
+                  "lat" : 50.0529601697085,
+                  "lng" : 19.9419105197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Queen Boutique Hotel",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3399,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108342440281850414772\"\u003eQueen Boutique Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3dsM0dqs_K9zI4uZp8gIPLlCWUSuSKyX21iRwJ_ydfdnW8fWoXvYnTA_A1m7sivVgJLBqkiLz-NQCY5g7Uo8nv8IEAtcn8E2PqE4bv6cKAVSOgL6_IYNJoQ_DaDypet64hWwGkVQxbw3EMMwnhyOIzp-uKsTQitHUshINDwTJysRaIm",
+               "width" : 5099
+            }
+         ],
+         "place_id" : "ChIJrUC3BGtbFkcRghfn6Uj2Yp0",
+         "plus_code" : {
+            "compound_code" : "3W3V+P7 Kraków, Polska",
+            "global_code" : "9F2X3W3V+P7"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJrUC3BGtbFkcRghfn6Uj2Yp0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 408,
+         "vicinity" : "Józefa Dietla 60, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0573312,
+               "lng" : 19.9272365
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0587366802915,
+                  "lng" : 19.9286138802915
+               },
+               "southwest" : {
+                  "lat" : 50.0560387197085,
+                  "lng" : 19.9259159197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Leonardo Boutique Hotel Krakow City Center",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102891969467807353617\"\u003eAndreas Wolters\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3eAbOifwu2ykQF66Rj2OtFYikK4-Ow-t2RMXTxq6FsCZQEGZvR2WINPSRgxd0Z7Xp71TyvXgwcTZopZCwXfCZFM7e5-6IhBgbNlm1tLkInGSgPZ9Aco9jfU_ym7MhA5lhyVFsCws6ZgoFlDLPrRWTMHaOMdIgibFcH5F2z3L-X-wT7t",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJg4DzWnNbFkcRci4qZKxYQFI",
+         "plus_code" : {
+            "compound_code" : "3W4G+WV Kraków, Polska",
+            "global_code" : "9F2X3W4G+WV"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJg4DzWnNbFkcRci4qZKxYQFI",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 465,
+         "vicinity" : "Wygoda 8, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.06399010000001,
+               "lng" : 19.9408965
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0649862302915,
+                  "lng" : 19.9425119302915
+               },
+               "southwest" : {
+                  "lat" : 50.0622882697085,
+                  "lng" : 19.9398139697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Beer House",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111084243755396432423\"\u003eBeer House\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3dvBZgUWKSNvIFcN9WjeHcga7w4N5vr4iLI4A1XZkFO2Lc16vg4IFaIB4sU_3nhmVjy0c23iKMmv5s4HPbfViNbTP1Xxh4ycQInpMdg7SwOtlSjfEQ58u2XfyCVGdI01FMAhIUhkZ55IgJhmrm6hZhcCYXSyDCW6OuVsk3tj7kT0P8",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJoVrbLRBbFkcR8Bjocs_m7rE",
+         "plus_code" : {
+            "compound_code" : "3W7R+H9 Kraków, Polska",
+            "global_code" : "9F2X3W7R+H9"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJoVrbLRBbFkcR8Bjocs_m7rE",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4374,
+         "vicinity" : "Floriańska 43, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0449114,
+               "lng" : 19.9520625
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.04630848029149,
+                  "lng" : 19.9534081802915
+               },
+               "southwest" : {
+                  "lat" : 50.04361051970849,
+                  "lng" : 19.95071021970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Apartamenty Kajzer",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107866506052208348126\"\u003eApartamenty Kajzer Hostel\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3dqNpMb1N7Sig2ylB5jWi0DQ0ORN8C2E3qOK9fqaHblrrRok_G69Ay5nHyje9XlUKNikcPthn1VkAccivLNk1l2S2n890HvtP2xZz_KHRi9X2ntCs809Tfrjw5zIDLeVMQ5ol94Ve8BP3ExlcK7HWnNI3W6zbtcCzz7awtW5a-hr1G3",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJxbS1kkRbFkcRNFOnN1YvGzY",
+         "plus_code" : {
+            "compound_code" : "2XV2+XR Kraków, Polska",
+            "global_code" : "9F2X2XV2+XR"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJxbS1kkRbFkcRNFOnN1YvGzY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 179,
+         "vicinity" : "Bolesława Limanowskiego 12, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.06445069999999,
+               "lng" : 19.9409321
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0658159302915,
+                  "lng" : 19.9432811
+               },
+               "southwest" : {
+                  "lat" : 50.0631179697085,
+                  "lng" : 19.9401491
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Floryan",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110602969485175228750\"\u003eCarlos Uploads\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3ct2i840cLNjaBJs-3dTv0KMWqNowg00T4Iza2tTRNp0TeaEmkJX01I1-s_rZtwa2xvQItd-38CB1bejRsxDkTdKpF993H4jsLy33okwtFQiwm9DaoMRevqbly7IqSi92wstOqMMirk4ewM471NE5MT7GupPobHV6PwHZMy0JCUeKaa",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJaxkIJhBbFkcRS_hAcC1cLvA",
+         "plus_code" : {
+            "compound_code" : "3W7R+Q9 Kraków, Polska",
+            "global_code" : "9F2X3W7R+Q9"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJaxkIJhBbFkcRS_hAcC1cLvA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 201,
+         "vicinity" : "Floriańska 38, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.06341349999999,
+               "lng" : 19.93261099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.06461813029149,
+                  "lng" : 19.9339845802915
+               },
+               "southwest" : {
+                  "lat" : 50.06192016970849,
+                  "lng" : 19.9312866197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "C.K. Browar",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4733,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116892942817196331362\"\u003eC.K. Browar\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3dIZoH7KZaet3oI9avoXpVgzfuErFf3t8Yv1RSgreyBnfjgroEt6xzRbOdBy4C6rcEu5trLJXUQRAcdIMJVhMyJ9v0gK-0ZJayoQ9uolUoa11PvpXKaQ8DO3fSPjKR07Jdkvk6z78d9vS3zjVmMVRr7fq-Xc12u1r2nDx2phTWgV58M",
+               "width" : 7092
+            }
+         ],
+         "place_id" : "ChIJf4Etug5bFkcRyq0rJ_UpcGk",
+         "plus_code" : {
+            "compound_code" : "3W7M+92 Kraków, Polska",
+            "global_code" : "9F2X3W7M+92"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJf4Etug5bFkcRyq0rJ_UpcGk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "meal_delivery",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3149,
+         "vicinity" : "Podwale 7, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.04785469999999,
+               "lng" : 19.9533806
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0492464302915,
+                  "lng" : 19.9546285302915
+               },
+               "southwest" : {
+                  "lat" : 50.0465484697085,
+                  "lng" : 19.95193056970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Restauracja Qubus Kraków",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4293,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107766150547529376610\"\u003eRestauracja Qubus Kraków\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3cd84tofUnNqbC-OinhJJRPbkurElpTLrr1vEHbQvDoGTv1nZEBr0mb1yNoV8HWpkqAUrhwbtTKTJRe_zq2nWIXobPCknaGEidDxxqsVW4FYpylUilYYUu9T-zexRxNiErbMxO3tgCu0W5vFlEr3oTqvKXI8s7xiehYgamJ5OIORrlj",
+               "width" : 6463
+            }
+         ],
+         "place_id" : "ChIJL30UkENbFkcR0tpMPgDi-n4",
+         "plus_code" : {
+            "compound_code" : "2XX3+49 Kraków, Polska",
+            "global_code" : "9F2X2XX3+49"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJL30UkENbFkcR0tpMPgDi-n4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 279,
+         "vicinity" : "Nadwiślańska 6, Kraków"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.0499361,
+               "lng" : 19.9466156
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0512210802915,
+                  "lng" : 19.9479999802915
+               },
+               "southwest" : {
+                  "lat" : 50.0485231197085,
+                  "lng" : 19.9453020197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Miodosytnia Restauracja&ApartHotel",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 9000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115420723104026951444\"\u003eDariusz Czermak\u003c/a\u003e"
+               ],
+               "photo_reference" : "AeJbb3dXXZB2D6RHSN_nfNmMZVHUKoU5SyWITS3-1pYeDo51g5Un__Hi9gsS0ZCJDlQTOEOlPhpEEZOazZ9PqK4k6NsNKP89yV3pMSdPOQuTIO7IXr9-7sG37d6l3kjW8Hw2ruGi3hZGlC8sYPhIm2J2LQ-aLFl37L9ATgmUc3aRrSr1p9u0",
+               "width" : 12000
+            }
+         ],
+         "place_id" : "ChIJB-RUAdZbFkcRON0kbMYDw_8",
+         "plus_code" : {
+            "compound_code" : "2WXW+XJ Kraków, Polska",
+            "global_code" : "9F2X2WXW+XJ"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJB-RUAdZbFkcRON0kbMYDw_8",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 332,
+         "vicinity" : "Świętego Wawrzyńca 6, Kraków"
+      }
+   ],
+   "status" : "OK"
+}
