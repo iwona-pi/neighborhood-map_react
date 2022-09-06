@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#map {
+	overflow: hidden;
+	bottom: 0px;
+    /*height: 100%;
+    left: 362px;*/
+    position: absolute;
+    right: 0px;
+}
+.search {
+	text-align: left;
+    /*width: 340px;*/
+}
+.container {
+	overflow-y: scroll;
+	width: 245px;
+    margin-left: 0;
+    height: 100vh;   
+}
+.restaurants-list {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0em 1em 0em 1em;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import MapContainer from './Map';
+//import Filter from './SearchBar.js'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <div >
       <MapContainer
       />
+ 
     </div>
     
   );
