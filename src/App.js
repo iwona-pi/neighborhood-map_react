@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { Component } from 'react'
 import MapContainer from './Map';
-//import Filter from './SearchBar.js'
+import Filter from './SearchBar.js'
+import restaurants from "./restaurants.json";
 
-function App() {
-  
+class App extends Component {
+  /*state = {
+      restaurants: restaurants.results
+  }*/
+
+  render(){
   return (
     <div >
-      <MapContainer
-      />
- 
+    <Filter />
+  
+ 	
     </div>
     
   );
-}
+}}
 
 export default App

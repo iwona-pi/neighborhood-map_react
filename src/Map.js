@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
-import Markers from './Markers';
+//import Markers from './Markers';
 import Filter from './SearchBar.js';
-import restaurants from "./restaurants.json";
+import { MarkerF } from "@react-google-maps/api";
+//import { Marker } from "@react-google-maps/api";
+//import restaurants from "./restaurants.json";
 
 class MapContainer extends Component {
       state = {
-      restaurants: restaurants.results
+      //restaurants: restaurants.results,
+      showRestaurants: []
     }
+
+
  
     render () {
   const mapStyles = {        
@@ -19,6 +24,7 @@ class MapContainer extends Component {
   const defaultCenter = {
     lat: 50.049683, lng: 19.944544
   }
+  const {restaurants} = this.props
   
   return (
      <LoadScript
@@ -27,10 +33,14 @@ class MapContainer extends Component {
           mapContainerStyle={mapStyles}
           zoom={13}
           center={defaultCenter}>
-        <Markers/>
+         
+         {restaurants.map(restaurant=>{
+           return(
+            <MarkerF key={restaurant.name} position={restaurant.geometry.location}/>
+        )})}
 
         </GoogleMap>
-        <Filter restaurants={this.state.restaurants}/>
+        
      </LoadScript>
   )}
 }
