@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import { GoogleMap, LoadScript, MarkerF, InfoWindowF } from "@react-google-maps/api";
+import { useState } from "react";
 //import Markers from './Markers';
-import Filter from './SearchBar.js';
-import { MarkerF } from "@react-google-maps/api";
+//import Filter from './SearchBar.js';
+//import {  } from "@react-google-maps/api";
 //import { Marker } from "@react-google-maps/api";
 //import restaurants from "./restaurants.json";
 
 class MapContainer extends Component {
-      state = {
-      //restaurants: restaurants.results,
-      showRestaurants: []
-    }
 
+  state = {
+    selected: null
+    //restaurants.results[0]
+  }
+  onSelect=(restaurant) => {
+    this.setState({selected: restaurant})
+  }
 
+  setSelected=()=> {
+    this.setState({selected: null})
+  }
  
     render () {
   const mapStyles = {        
@@ -25,7 +32,15 @@ class MapContainer extends Component {
     lat: 50.049683, lng: 19.944544
   }
   const {restaurants} = this.props
-  
+  const {selected} = this.state
+
+  //const [ selected, setSelected ] = useState({});
+
+
+/*  const onSelect = item => {
+    setSelected(item);
+  }
+  */
   return (
      <LoadScript
        googleMapsApiKey='AIzaSyA4cV5aoz8r2Ew2dIOAK-SiH3z6FKMUuM0'>
@@ -36,8 +51,25 @@ class MapContainer extends Component {
          
          {restaurants.map(restaurant=>{
            return(
-            <MarkerF key={restaurant.name} position={restaurant.geometry.location}/>
+            <MarkerF key={restaurant.name} 
+            position={restaurant.geometry.location}
+            onClick={() => this.onSelect(restaurant)}
+            />
         )})}
+         {
+            selected ?
+            (
+              <InfoWindowF
+              position={selected.geometry.location}
+              //clickable={true}
+              onCloseClick={() => this.setSelected()}
+            >
+            <div>
+              <p>{selected.name}</p>
+            </div>
+            </InfoWindowF>
+            ) :null
+         }
 
         </GoogleMap>
         
