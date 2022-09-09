@@ -9,17 +9,17 @@ import { useState } from "react";
 
 class MapContainer extends Component {
 
-  state = {
+/*  state = {
     selected: null
-    //restaurants.results[0]
-  }
-  onSelect=(restaurant) => {
+    
+  }*/
+ /* onSelect=(restaurant) => {
     this.setState({selected: restaurant})
-  }
+  }*/
 
-  setSelected=()=> {
+  /*setSelected=()=> {
     this.setState({selected: null})
-  }
+  }*/
  
     render () {
   const mapStyles = {        
@@ -31,8 +31,8 @@ class MapContainer extends Component {
   const defaultCenter = {
     lat: 50.049683, lng: 19.944544
   }
-  const {restaurants} = this.props
-  const {selected} = this.state
+  const {restaurants, onSelect, selected, setSelected} = this.props
+  //const {selected} = this.state
 
   //const [ selected, setSelected ] = useState({});
 
@@ -53,7 +53,7 @@ class MapContainer extends Component {
            return(
             <MarkerF key={restaurant.name} 
             position={restaurant.geometry.location}
-            onClick={() => this.onSelect(restaurant)}
+            onClick={() => onSelect(restaurant)}
             />
         )})}
          {
@@ -61,8 +61,8 @@ class MapContainer extends Component {
             (
               <InfoWindowF
               position={selected.geometry.location}
-              //clickable={true}
-              onCloseClick={() => this.setSelected()}
+              clickable={true}
+              onCloseClick={() => setSelected()}
             >
             <div>
               <p>{selected.name}</p>

@@ -7,7 +7,8 @@ class Filter extends Component {
   
   state = {
     query: '',
-    showRestaurants: restaurants.results
+    showRestaurants: restaurants.results,
+    selected: null
 
   }
   
@@ -22,7 +23,13 @@ class Filter extends Component {
     this.setState({showRestaurants: showRestaurants});
   }
 
- 
+  onSelect=(restaurant) => {
+    this.setState({selected: restaurant})
+  }
+
+  setSelected=()=> {
+    this.setState({selected: null})
+  }
 	
   render() {
 
@@ -55,7 +62,8 @@ class Filter extends Component {
         </div>
         <ul className='restaurants-list'>
           {this.showRestaurants.map((restaurant) => (
-            <li key={restaurant.name} className='contact-list-item'>
+            <li key={restaurant.name} className='contact-list-item' 
+            onClick={() => this.onSelect(restaurant)}>
              
               <div className='contact-details'>
                 <p>{restaurant.name} </p>
@@ -65,7 +73,10 @@ class Filter extends Component {
             </li>
           ))}
         </ul>
-        <MapContainer restaurants={this.state.showRestaurants}/>
+        <MapContainer restaurants={this.state.showRestaurants}
+                      selected = {this.state.selected}
+                      onSelect = {this.onSelect}
+                      setSelected = {this.setSelected}/>
       </div>
 
         );
