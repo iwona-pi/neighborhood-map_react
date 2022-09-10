@@ -8,7 +8,8 @@ class Filter extends Component {
   state = {
     query: '',
     showRestaurants: restaurants.results,
-    selected: null
+    selected: null,
+    animation: '1'
 
   }
   
@@ -24,12 +25,22 @@ class Filter extends Component {
   }
 
   onSelect=(restaurant) => {
-    this.setState({selected: restaurant})
+    this.setState({selected: restaurant,
+                  animation:1});
+
   }
 
   setSelected=()=> {
-    this.setState({selected: null})
+    this.setState({selected: null,
+                  animation: '0'})
   }
+
+  setA = (restaurant) => {
+  this.setState({animation: 1})
+}
+setN = (selected) => {
+  this.setState({animation: null})
+}
 	
   render() {
 
@@ -73,10 +84,15 @@ class Filter extends Component {
             </li>
           ))}
         </ul>
+        
         <MapContainer restaurants={this.state.showRestaurants}
                       selected = {this.state.selected}
                       onSelect = {this.onSelect}
-                      setSelected = {this.setSelected}/>
+                      setSelected = {this.setSelected}
+                      setA= {this.setA}
+                      animation = {this.state.animation}
+                      setN= {this.setN}/>
+                    
       </div>
 
         );
