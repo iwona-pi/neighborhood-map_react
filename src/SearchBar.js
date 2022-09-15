@@ -10,6 +10,7 @@ class Filter extends Component {
     showRestaurants: restaurants.results,
     selected: null,
     url: ''
+   
 
   }
   
@@ -69,7 +70,7 @@ this.setState({url: Url})
 	
   render() {
 
-const { query} = this.state
+const { query, selected} = this.state
  
 
         //Dynamically change state when filter is running
@@ -101,8 +102,8 @@ const { query} = this.state
             <li key={restaurant.name} className='restaurant-item' 
             onClick={() => this.onSelect(restaurant)}>
              
-              <div className='restaurant-name'>
-                <p>{restaurant.name} </p>
+              <div className='restaurant-name' >
+                <p tabIndex="0" role="button" aria-pressed={selected!==null?(selected.name === restaurant.name?true:false):false}>{restaurant.name} </p>
                
               </div>
             

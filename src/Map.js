@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import { GoogleMap, LoadScript, MarkerF, InfoWindowF } from "@react-google-maps/api";
-//import { useState } from "react";
-//import Markers from './Markers';
-//import Filter from './SearchBar.js';
-//import {  } from "@react-google-maps/api";
-//import { Marker } from "@react-google-maps/api";
-//import restaurants from "./restaurants.json";
+
 
 class MapContainer extends Component {
 
@@ -28,7 +23,7 @@ class MapContainer extends Component {
   const defaultCenter = {
     lat: 50.049683, lng: 19.944544
   }
-  //We have to move some props to parent element. This allows to use the same states on both componnets
+  //We have to move some props to parent element. This allows to use the same states on both components
   const {restaurants, onSelect, selected, setSelected, url} = this.props
 
 
@@ -61,7 +56,7 @@ class MapContainer extends Component {
          })
          
        } {
-        /*If the state is changed on selected (marked or item on filter list is clicked, the Infowindow is open*/
+        /*If the state is changed on selected (marker or item on filter list is clicked), the Infowindow is open*/
             selected ?
             (
               <InfoWindowF
