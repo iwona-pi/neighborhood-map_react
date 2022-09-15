@@ -11,7 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
 #map {
 	overflow: hidden;
 	bottom: 0px;
@@ -19,19 +22,51 @@ code {
     left: 362px;*/
     position: absolute;
     right: 0px;
+    top: 4em;
 }
 .search {
 	text-align: left;
     /*width: 340px;*/
 }
 .container {
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	width: 245px;
     margin-left: 0;
-    height: 100vh;   
+   /* height: 100vh;  */ 
 }
 .restaurants-list {
 	list-style-type: none;
   	margin: 0;
-  	padding: 0em 1em 0em 1em;
+  	padding: 0em 0em 0em 0em;
+    overflow-y: scroll;
+    height: 96vh;
+}
+.restaurant-item:hover {
+  background-color: #2b352f36;
+  cursor: pointer;
+}
+.restaurant-item:focus {
+  background-color: #3bdc8536;
+}
+.filter-restaurant {
+  margin-left: 1em;
+}
+.container {
+  background-color: #76918452;
+}
+.restaurant-item {
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 550px){
+ .filter-restaurant {
+  width:4.9em;
+  margin-left: 0.2em;
+ }
+ .restaurants-list {
+  font-size: x-small;
+ }
+ .wrapper {
+  width: 22vw;
+ }
 }

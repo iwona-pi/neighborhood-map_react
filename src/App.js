@@ -10,11 +10,14 @@ class App extends Component {
 
   render(){
   return (
+  
     <div >
+    	<header><h1>Places in Krakow</h1></header>
     <Filter />
   
  	
     </div>
+
     
   );
 }}

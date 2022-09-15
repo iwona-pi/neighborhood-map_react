@@ -15,6 +15,7 @@ class Filter extends Component {
   
   updateQuery = (query ) => {
     
+    //This function allows change two state in one time
     this.setState({ query: query.trim() },()=>{
     //this.setState({showRestaurants: showRestaurants});
     this.updateState(this.showRestaurants)})
@@ -23,26 +24,26 @@ class Filter extends Component {
   updateState = (showRestaurants) => {
     this.setState({showRestaurants: showRestaurants});
   }
-
+//When you click on marker or item list this function is invoked
   onSelect=(restaurant, Url) => {
-    this.dupa(restaurant);
+    this.photo(restaurant);
 
-    this.setState({selected: restaurant,
-                  url: Url});
-                  //animation:1
+    this.setState({selected: restaurant});
+                  //url: Url
+   
 
   }
-
+//Closing the Infowindow you are deleting two states
   setSelected=()=> {
     this.setState({selected: null,
                   url: ''})
                   //animation: '0'
   }
-
-dupa = (selected) => {
+/*Fetch custom image from Flickr API based on choosen place*/
+photo = (restaurant) => {
 let adres, Url
 
-      adres = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=c30015377c78bd8635055c5ea59e145e&lat=" +selected.geometry.location.lat+"&lon=" +selected.geometry.location.lng +"&per_page=5&page=5&format=json&nojsoncallback=1"
+      adres = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=c30015377c78bd8635055c5ea59e145e&lat=" +restaurant.geometry.location.lat+"&lon=" +restaurant.geometry.location.lng +"&per_page=5&page=5&format=json&nojsoncallback=1"
     fetch(adres).then(data=> {
   return data.json()
 }).then(jsonData => {
@@ -57,41 +58,21 @@ this.setState({url: Url})
 //this.set();
 }).catch(error=> {
   console.log(error);
-  alert("Sorry, you can't see image now. There is problem with Flickr API. Refresh your browser or try agaian later")
+  alert("Sorry, you can't see an image now. There is problem with Flickr API. Refresh your browser or try agaian later")
 }) 
       //adresik = Url;
       //console.log(adresik);
       //Url = "https://farm" + jsonData.photos.photo[1].farm + ".staticflickr.com/" + jsonData.photos.photo[1].server + "/" + jsonData.photos.photo[1].id + '_' + jsonData.photos.photo[1].secret + '.jpg'
   }
 
-/*  setA = (restaurant) => {
-  this.setState({animation: 1})
-}
-setN = (selected) => {
-  this.setState({animation: null})
-}*/
+
 	
   render() {
 
-const { query, selected} = this.state
-  /*  let adres
-      if(selected) {
-        adres = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=c30015377c78bd8635055c5ea59e145e&lat=" +selected.geometry.location.lat+ "&" +selected.geometry.location.lng +"&per_page=5&page=1&format=json&nojsoncallback=1"
-    fetch(adres).then(data=> {
-  return data.json()
-}).then(jsonData => {
- console.log(jsonData.photos);
- console.log(adres);
-}).catch(error=> {
-  console.log(error);
-}) 
-     
-  }
-*/
-	//const { restaurants, onChange} = this.props
-  //const { query, selected} = this.state
+const { query} = this.state
+ 
 
-        //let showRestaurants
+        //Dynamically change state when filter is running
       
       if (this.state.query) {
         const match = new RegExp(escapeRegExp(query), 'i')    
@@ -104,12 +85,12 @@ const { query, selected} = this.state
 
 	return(
 	<div className='container'>
-        
-        <div className='search'>
+      <div className = 'wrapper'> 
+        <div className='filter'>
           <input
-            className='search-contacts'
+            className='filter-restaurant'
             type='text'
-            placeholder='Search contacts'
+            placeholder='Location'
             value={this.state.query}
             onChange={(event) => this.updateQuery(event.target.value)}
             //onChange = {this.updateState}
@@ -117,10 +98,10 @@ const { query, selected} = this.state
         </div>
         <ul className='restaurants-list'>
           {this.showRestaurants.map((restaurant) => (
-            <li key={restaurant.name} className='contact-list-item' 
+            <li key={restaurant.name} className='restaurant-item' 
             onClick={() => this.onSelect(restaurant)}>
              
-              <div className='contact-details'>
+              <div className='restaurant-name'>
                 <p>{restaurant.name} </p>
                
               </div>
@@ -128,18 +109,16 @@ const { query, selected} = this.state
             </li>
           ))}
         </ul>
-        
+      </div> 
+      <div>  
         <MapContainer restaurants={this.state.showRestaurants}
                       selected = {this.state.selected}
                       onSelect = {this.onSelect}
                       setSelected = {this.setSelected}
                       url = {this.state.url}
-                      //setA= {this.setA}
-                      //animation = {this.state.animation}
-                      //setN= {this.setN}
                       />
-                    
-      </div>
+       </div>             
+    </div>
 
         );
 		
