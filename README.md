@@ -1,12 +1,18 @@
-# Getting Started with Create React App
+# Neighborhood Map React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
+One-page application showing places on Google Maps. Clicking on the marker or list of the places the infowindow with name of location and image from [Flickr](https://www.flickr.com/services/api/flickr.photos.search.htm) is displaying. 
+Filter locations using filter bar and you see markers dynamically rendered accordingly to location's name.
 
+[![screen.png](https://i.postimg.cc/VN70CtkF/screen.png)](https://postimg.cc/NyH0h5Ty)
+
+## Run project
+Clone this repo.
 In the project directory, you can run:
-
-### `npm start`
+#### `npm install`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
