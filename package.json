@@ -1,5 +1,18 @@
 {
+<<<<<<< HEAD
   "name": "neighborhood-map_react",   
+||||||| merged common ancestors
+  "name": "neighborhood-map_react",
+    "homepage" : "https://iwona-pi.github.io/neighborhood-map_react/",
+=======
+  "name": "neighborhood-map_react",
+<<<<<<< HEAD
+    "homepage": "https://.github.io/",
+||||||| merged common ancestors
+=======
+    "homepage" : "https://iwona-pi.github.io/neighborhood-map_react/",
+>>>>>>> master
+>>>>>>> gh-pages
   "version": "0.1.0",
   "private": true,
     "homepage": "https://iwona-pi.github.io/neighborhood-map_react/",
