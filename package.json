@@ -1,6 +1,6 @@
 {
   "name": "neighborhood-map_react",
-    homepage: "https://iwona-pi.github.io/neighborhood-map_react/",
+    "homepage" : "https://iwona-pi.github.io/neighborhood-map_react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
