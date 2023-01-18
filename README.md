@@ -33,7 +33,7 @@ Apllication besides the [Google Maps](https://developers.google.com/maps) API us
 In the link above `{x}` and `{y}` are replaced by individual location of each place, then we receive the list of photo. In this case 5 photo (`per_page=5`) and we may choose one to display.
 
 #### Errors
-Apllications is error free. Special alert is displaying when smething is wrong.
+Apllications is error free. Special alert is displaying when something is not correct.
 
 ## Author
 [Iwona P.](https://github.com/iwona-pi)
