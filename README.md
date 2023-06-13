@@ -11,6 +11,8 @@ Filter locations using filter bar and you see markers dynamically rendered accor
 
 
 ## Run project
+[Live version](https://iwona-pi.github.io/neighborhood-map_react/)
+
 Clone this repo:\
 `git clone https://github.com/iwona-pi/neighborhood-map_react.git`
 
